@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body
+{
+    margin: 0px;
+    height: 100vh;
+    background-color: #df8c0f;
+    background-image: url('../images/index_bg.jpg');
+    background-repeat: repeat;
+}
+
+#iconWithName_img
+{
+    display: block;
+    margin: 0px auto;
+    padding: 20px 0px 0px;
+    width: 20%;
+}
+
+#description_text
+{
+    margin: 20px auto 0px;
+    padding: 10px;
+    width: 80%;
+    background-color: #ffffffbd;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#form_container
+{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.form_block
+{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    width: calc(50% - 25px);
+    vertical-align: top;
+    background-color: #000000cc;
+}
+
+.form_block h2
+{
+    margin: 0px 0px 20px 0px;
+    padding: 15px 0px 15px 10px;
+    border-bottom: 1px solid #cc994b;
+    color: #ffb84d;
+    font-size: 30px;
+}
+
+.form_block h2 span
+{
+    color: #d3963b;
+    font-size: 25px;
+}
+
+.form_block p
+{
+    margin: 5px 10px 15px;
+    color: #d3963b;
+    font-size: 20px;
+}
+
+.form_block input
+{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form_block button
+{
+    display: block;
+    margin: 0px 0px 10px auto;
+    padding: 5px 10px;
+    background-color: #7a7979;
+    border: 2px solid #c5c5c5;
+    font-size: 20px;
+}
+
+.form_block button:hover
+{
+    border: 2px solid #d3963b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px)
+{
+    #iconWithName_img
+    {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #description_text
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    #iconWithName_img
+    {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    #form_container
+    {
+        margin: 40px 0px 0px;
+        position: static;
+    }
+
+    .form_block
+    {
+        display: block;
+        margin: 0px auto 40px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    #iconWithName_img
+    {
+        width: 40%;
+    }
+}
+
