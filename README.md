@@ -57,14 +57,15 @@ You can use other softwares for replacement, but some code modification may be r
 - 2021-05-31 (Version 1.0.0)
     1. Project pulled to github.
 
+- 2021-05-31 (Version 1.0.0)
+    1. Change copyright from modification denied to modification-free.
+
 
 # Copyright
 This project is written by haward79.
-All rights reserved by haward79.
 
-For other users, you are free to copy and spread contents in this project.
-However, modification is NOT allowed.
+For other users, you are free to copy, edit, and spread contents (and edited content) in this project.
 
-For more details or project modification request, please contact haward79 and wait for good news.
+For more details, please contact haward79 and wait for good news.
 You can find haward79's e-mail from my [personal website](https://www.haward79.tw/).
 
